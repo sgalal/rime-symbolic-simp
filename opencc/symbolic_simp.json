@@ -1,0 +1,19 @@
+{
+  "name": "Chinese to Symbols (Simplified Chinese version)",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "symbolic_simp.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "symbolic_simp.txt"
+      }]
+    }
+  }]
+}
