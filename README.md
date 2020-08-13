@@ -28,7 +28,7 @@ rime 符号输入方案（简化字版）
 
 ```yaml
 symbolic_simp:
-  opencc_config: symbolic_simp
+  opencc_config: symbolic_simp.json
   option_name: symbolic_simp
   tips: all
 ```
